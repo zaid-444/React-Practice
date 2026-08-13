@@ -1,0 +1,43 @@
+import { useEffect, useState } from "react";
+
+export function DataBinding2(){
+    const [menuItems] = useState(['Home','Sale','Contact','Services']);
+
+    useEffect(()=>{
+
+    },[])
+
+    return (
+        <div className="container-fluid">
+            <header className="p-2 mt-2 align-items-center bg-light d-flex justify-content-between">
+                <div>
+                    <span className="bi bi-justify"></span>
+                    <span className="mx-2 fw-bold">Amazon</span>
+                </div>
+                <div>
+                    <div className="input-group">
+                        <input type="text" className="form-control" placeholder="search amazon" />
+                        <button className="btn btn-warning bi bi-search"></button>
+                    </div>
+                </div>
+                <nav>
+                    {
+                        menuItems.map(item=> <span className="mx-3 fw-bold" key={item}>{item}</span>)
+                    }
+                </nav>
+            </header>
+            <section className="mt-3">
+                <ul className="list-group w-25">
+                    {
+                        menuItems.map(item=> <li className="list-group-item list-group-item-danger" key={item}>{item}</li>)
+                    }
+                </ul>
+                <ul className="list-unstyled ms-4">
+                    {
+                        menuItems.map(item=> <li key={item}><input type="checkbox" /> <label >{item}</label></li>)
+                    }
+                </ul>
+            </section>
+        </div>
+    )
+}

@@ -8,6 +8,10 @@ export function DataBinding(){
     const [name, setName] = useState('please set name')
     var username = "John"
     
+    const [products,setProducts] = useState(['TV','Mobile']);
+    const [categories,setCategories] = useState(new Array('Electronics','Fashion'))
+
+
     useEffect(()=>{
         setPrice(5655);
         setName('Zaid');
@@ -20,6 +24,18 @@ export function DataBinding(){
             <input type="text" value={username} />
             <p>Price = {price}</p>
             <p>{name}</p>
+            <hr />
+
+            <ul>
+                {
+                    products.map((product)=> <li>{product}</li>)
+                }
+            </ul>
+            <select name="" id="">
+                {
+                    categories.map((categorie)=> <option>{categorie}</option>)
+                }
+            </select>
         </div>
     )
 }
