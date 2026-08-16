@@ -7,11 +7,13 @@ import '../node_modules/bootstrap-icons/font/bootstrap-icons.css'
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle.js'
 // import { Login } from './components/login/login.jsx';
 // import { DataBinding } from './components/data-binding/data-binding.jsx'
-import { DataBinding2 } from './components/data-binding/data-binding2.jsx'
-import { DataBinding3 } from './components/data-binding/data-binding3.jsx'
+// import { DataBinding2 } from './components/data-binding/data-binding2.jsx'
+// import { DataBinding3 } from './components/data-binding/data-binding3.jsx'
+// import { DateBinding } from './components/data-binding/date-binding.jsx'
+import { Flipkart } from './components/data-binding/flipkart.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <DataBinding3 />
+    <Flipkart />
   </StrictMode>,
 )
