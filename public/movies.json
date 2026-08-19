@@ -1,0 +1,26 @@
+[
+    {
+        "title": "VISHWANATH AND SONS",
+        "poster": "img1.png",
+        "language": "Tamil,Telugu",
+        "certificate": "UA 16+"
+    },
+    {
+        "title": "SPIDERMAN BRAND NEW DAY",
+        "poster": "img2.png",
+        "language": "English,Hindi",
+        "certificate": "UA 13+"
+    },
+    {
+        "title": "AWARAPAN 2",
+        "poster": "img3.png",
+        "language": "Hindi",
+        "certificate": "UA 16+"
+    },
+    {
+        "title": "THE ODYSSEY",
+        "poster": "img4.png",
+        "language": "Hindi,English",
+        "certificate": "A"
+    }
+]

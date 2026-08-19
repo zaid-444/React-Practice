@@ -10,10 +10,12 @@ import '../node_modules/bootstrap/dist/js/bootstrap.bundle.js'
 // import { DataBinding2 } from './components/data-binding/data-binding2.jsx'
 // import { DataBinding3 } from './components/data-binding/data-binding3.jsx'
 // import { DateBinding } from './components/data-binding/date-binding.jsx'
-import { Flipkart } from './components/data-binding/flipkart.jsx'
+// import { Flipkart } from './components/data-binding/flipkart.jsx'
+import { Flipkart1 } from './components/flipkart/flipkart1.jsx'
+import { Inox } from './components/inox/inox.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Flipkart />
+    <Inox />
   </StrictMode>,
 )
