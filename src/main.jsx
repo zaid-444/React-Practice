@@ -11,11 +11,12 @@ import '../node_modules/bootstrap/dist/js/bootstrap.bundle.js'
 // import { DataBinding3 } from './components/data-binding/data-binding3.jsx'
 // import { DateBinding } from './components/data-binding/date-binding.jsx'
 // import { Flipkart } from './components/data-binding/flipkart.jsx'
-import { Flipkart1 } from './components/flipkart/flipkart1.jsx'
-import { Inox } from './components/inox/inox.jsx'
+// import { Flipkart1 } from './components/flipkart/flipkart1.jsx'
+// import { Inox } from './components/inox/inox.jsx'
+import { FakeStore } from './components/fakestore/fakestore.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Inox />
+    <FakeStore />
   </StrictMode>,
 )
