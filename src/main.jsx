@@ -5,6 +5,8 @@ import './index.css'
 import '../node_modules/bootstrap/dist/css/bootstrap.css'
 import '../node_modules/bootstrap-icons/font/bootstrap-icons.css'
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle.js'
+// import { EventBinding1 } from './components/event-binding/event-binding1.jsx'
+import { EventBinding2 } from './components/event-binding/event-binding2.jsx'
 // import { Login } from './components/login/login.jsx';
 // import { DataBinding } from './components/data-binding/data-binding.jsx'
 // import { DataBinding2 } from './components/data-binding/data-binding2.jsx'
@@ -13,10 +15,10 @@ import '../node_modules/bootstrap/dist/js/bootstrap.bundle.js'
 // import { Flipkart } from './components/data-binding/flipkart.jsx'
 // import { Flipkart1 } from './components/flipkart/flipkart1.jsx'
 // import { Inox } from './components/inox/inox.jsx'
-import { FakeStore } from './components/fakestore/fakestore.jsx'
+// import { FakeStore } from './components/fakestore/fakestore.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <FakeStore />
+    <EventBinding2 />
   </StrictMode>,
 )
