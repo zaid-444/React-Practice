@@ -5,8 +5,10 @@ import './index.css'
 import '../node_modules/bootstrap/dist/css/bootstrap.css'
 import '../node_modules/bootstrap-icons/font/bootstrap-icons.css'
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle.js'
-import { ConditionalRender } from './components/conditional-render/conditional-render.jsx'
-import { ConditionalRender1 } from './components/conditional-render/conditional-render1.jsx'
+import { HomeDemo1 } from './components/home-demo/home-demo1.jsx'
+// import { ConditionalRender } from './components/conditional-render/conditional-render.jsx'
+// import { HomeDemo } from './components/home-demo/home-demo.jsx'
+// import { ConditionalRender1 } from './components/conditional-render/conditional-render1.jsx'
 // import { MouseAnimation } from './components/mouse-animation/mouse-animation.jsx'
 // import { MouseMove } from './components/mouse-move/mosue-move.jsx'
 // import { KeyDemo } from './components/key-demo/key-demo.jsx'
@@ -32,6 +34,6 @@ import { ConditionalRender1 } from './components/conditional-render/conditional-
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <ConditionalRender />
+    <HomeDemo1 />
   </StrictMode>,
 )
